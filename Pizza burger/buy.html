@@ -1,0 +1,66 @@
+<!-- RIFQI RACHMANDA ERYAWAN - 001201700004 -->
+<html>
+	<head>
+		<title>King- Burgers, Pizza</title>
+        <link rel="stylesheet" href="assets/css/buy.css">
+	</head>
+	<body>
+	<div id="input_div">
+		<h1><King- Burgers, Pizza></h1>
+		<hr align="center">
+		<table align="center">
+			<tr>
+				<td width="400px">CAFE MENU</td>
+				<td width="200px">PRICE</td>
+				<td width="200px">QUANTITY</td>
+				<td width="200px">SUBTOTAL</td>
+			</tr>
+			<tr>
+				<td>King Size Macaroni</td>
+				<td>25$</td>
+				<td><button onclick="decreaseA()">-</button><button onclick="increaseA()">+</button><input type="text" id="aa" value="0"></td>
+ 				<td><input type="text" id="one" value="0"></td>
+			</tr>
+			<tr>
+				<td>Chicken</td>
+				<td>10$</td>
+				<td><button onclick="decreaseB()">-</button><button onclick="increaseB()">+</button><input type="text" id="bb" value="0"></td>
+ 				<td><input type="text" id="two" value="0"></td>
+			</tr>
+			<tr>
+				<td>Happy Meal Combo</td>
+				<td>9$</td>
+				<td><button onclick="decreaseC()">-</button><button onclick="increaseC()">+</button><input type="text" id="cc" value="0"></td>
+ 				<td><input type="text" id="three" value="0"></td>
+			</tr>
+			<tr>
+				<td>Bishteks</td>
+				<td>15$</td>
+				<td><button onclick="decreaseD()">-</button><button onclick="increaseD()">+</button><input type="text" id="dd" value="0"></td>
+ 				<td><input type="text" id="four" value="0"></td>
+			</tr>
+			<tr>
+				<td>Roasted Chicken Pizza</td>
+				<td>25$</td>
+				<td><button onclick="decreaseE()">-</button><button onclick="increaseE()">+</button><input type="text" id="ee" value="0"></td>
+ 				<td><input type="text" id="five" value="0"></td>
+			</tr>
+			<tr>
+				<td colspan="4"><hr align="center"></td>
+			<tr>
+				<td colspan="3">GRAND TOTAL</td>
+  				<td id="total"></td>
+			</tr>
+	<script src="assets/js/buy.js"></script>
+	</table>
+	</div>
+	<center><button onclick="list()">Submit</button></center>
+	<center><p>Invoice :</p></center>
+	<p><div class="invoice" id="MAC" align="center" ></div></p>
+	<p><div class="invoice" id="LAS" align="center"></div></p>
+	<p><div class="invoice" id="OME" align="center"></div></p>
+	<p><div class="invoice" id="OCH" align="center"></div></p>
+	<p><div class="invoice" id="OMI" align="center"></div></p>
+	<p><div class="invoice" id="lister" align="center"></div></p>
+	</body>
+</html>
